@@ -4,7 +4,7 @@
 You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order, and each of their nodes contains a single digit. Add the two numbers and return the sum as a linked list.
 
 ## Syntax
-python
+```python
 class ListNode(object):
     def __init__(self, val=0, next=None):
         self.val = val
@@ -13,10 +13,11 @@ class ListNode(object):
 class Solution(object):
     def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
         pass
+```
 
 
 ## Example
-python
+```python
 node1 = ListNode(2)
 node2 = ListNode(4)
 node3 = ListNode(3)
@@ -33,7 +34,7 @@ node22.next = node32
 
 sol = Solution()
 sol.addTwoNumbers(node1, node12)
-
+```
 
 ## Key
 * The number of nodes in each linked list is in the range [1, 100].
